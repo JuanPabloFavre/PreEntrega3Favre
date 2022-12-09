@@ -1,0 +1,16 @@
+@import "./utils/mixin";
+@import "./utils/variables";
+
+@import "./base/base.scss";
+
+@import "./components/botones";
+
+
+@import "./pages/index.scss";
+@import "./pages/camisetas.scss";
+@import "./pages/guantes.scss";
+@import "./pages/medias.scss";
+@import "./pages/otros.scss";
+@import "./pages/shorts.scss";
+@import "./pages/zapatos.scss";
+

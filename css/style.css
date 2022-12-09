@@ -48,14 +48,14 @@ nav {
   text-align: center;
   justify-content: center;
   font-size: 1.8rem;
-  background-image: url(../../fondos/azul.jpg);
+  background-image: url(../fondos/azul.jpg);
   background: cover;
   border-top: white solid 10px;
   width: 100%;
 }
 
 body {
-  background-image: url(../../fondos/cielo.jpg);
+  background-image: url(../fondos/cielo.jpg);
   background-size: cover;
 }
 
@@ -129,7 +129,7 @@ aside {
   border: solid 2px black;
   border-radius: 10px;
   margin-bottom: 10px;
-  background-image: url(../../fondos/ventas.jpg);
+  background-image: url(../fondos/ventas.jpg);
   background-size: cover;
 }
 .articulosIndex a {
@@ -150,7 +150,7 @@ aside {
   margin-right: 15%;
   margin-left: 15%;
   margin-top: 15%;
-  background-image: url(../../fondos/fondo-zapatos.jpg);
+  background-image: url(../fondos/fondo-zapatos.jpg);
   background: cover;
 }
 
@@ -772,7 +772,7 @@ aside {
 }
 
 .bodyShorts {
-  background-image: url(../../fondos/cielo.jpg);
+  background-image: url(../fondos/cielo.jpg);
   background-size: cover;
 }
 

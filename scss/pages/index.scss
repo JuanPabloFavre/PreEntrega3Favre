@@ -85,7 +85,7 @@ aside {
     margin-bottom: 1%;
     border-top: solid black 5px;
     border-bottom: solid black 5px;
-    
+
 
 }
 
@@ -96,7 +96,7 @@ aside {
 
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     height: 100px;
     width: 100px;
     outline: black;
@@ -172,7 +172,7 @@ aside {
     margin-top: 15%;
     background-image: url(../fondos/fondo-zapatos.jpg);
     background: cover;
-  
+
 
 }
 
@@ -311,8 +311,8 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
-  
+
+
 
 }
 
@@ -431,8 +431,8 @@ aside {
 
 @media (min-width:768px) {
 
-    header{
-padding-bottom: 5%;
+    header {
+        padding-bottom: 5%;
 
     }
 
@@ -516,8 +516,8 @@ padding-bottom: 5%;
     /* Transformaciones  */
 
     .consultaArticulo:hover {
-        background-color: skyblue;
-        color: antiquewhite;
+        background-color: $color-articulos;
+        color: $color-letra;
     }
 
     .logoIndex img:hover {
@@ -527,12 +527,12 @@ padding-bottom: 5%;
     }
 
     .listaHeader a:hover {
-        color: black;
+        color: $color-letra;
 
     }
 
     .footerUl a:hover {
-        color: black;
+        color: $color-letra;
 
 
     }
@@ -548,7 +548,7 @@ padding-bottom: 5%;
         color: aliceblue;
     }
 
-   
+
     /* Fin Transformaciones */
 
     .articulosVenta img {
@@ -607,7 +607,7 @@ padding-bottom: 5%;
         text-align: center;
         margin: 20px 10px 20px 10px;
         font-size: 1.5rem;
-        border: solid 1px black;
+        border: solid 1px $color-letra;
         border-radius: 3px;
         padding: 15px;
     }
@@ -653,7 +653,6 @@ padding-bottom: 5%;
 /* Configuracion para pantallas mayores de 1200px */
 
 @media (min-width:1200px) {
-
 
     .articulosIndex img {
         height: 150px;

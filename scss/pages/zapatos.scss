@@ -1,5 +1,5 @@
 .bodyZapatos {
-    background-image: url(../fondos/cielo.jpg);
+    background-image: url(../fondos/zapatos.jpg);
     background-size: cover;
 }
 
@@ -7,7 +7,7 @@
 .zapatosVenta {
     border: solid darkslategray 4px;
     border-radius: 10px;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@
     width: 300px;
     margin-bottom: 115px;
     margin-right: 5%;
-    background-image: url(../fondos/celeste.jpg);
+    background-image: url(../../fondos/zapatos-venta.png);
     background-size: cover;
 
     img {
@@ -33,7 +33,7 @@
 
     select {
         margin-bottom: 14px;
-        border: solid 2px white;
+        border: solid 2px black;
 
     }
 
@@ -57,12 +57,49 @@
 
     }
 
-    @include desktop{
+    @include desktop {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
 
     }
+
+}
+
+.ubicacionArticulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../fondos/cielo.jpg);
+    background-size: cover;
+   
+
+
+    a {
+        color: wheat;
+        font-size: 1.5rem;
+        @include tablet {
+            font-size: 1.5rem;
+        }
+    
+        @include desktop {
+           font-size: 2rem;
+        }
+    }
+
+   
+
+   
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
 
 }
 

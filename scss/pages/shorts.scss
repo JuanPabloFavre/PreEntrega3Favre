@@ -9,7 +9,7 @@
 
     border: solid darkslategray 4px;
     border-radius: 10px;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,7 @@
     width: 300px;
     margin-bottom: 115px;
     margin-right: 5%;
-    background-image: url(../fondos/celeste.jpg);
+    background-image: url(../../fondos/shorts-venta.png);
     background-size: cover;
 
     img {
@@ -34,7 +34,8 @@
     }
     select{
         margin-bottom: 14px;
-        border: solid 2px white;
+        border: solid 2px black;
+
         
             }
 

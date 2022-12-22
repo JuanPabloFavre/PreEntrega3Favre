@@ -7,6 +7,7 @@ header {
     padding-bottom: 10%;
     background-image: url(../fondos/celeste.jpg);
 
+
     @include tablet {
         header {
             display: flex;
@@ -159,8 +160,6 @@ aside {
 }
 
 
-
-
 .textoIndex {
     text-align: center;
     font-size: 2rem;
@@ -201,13 +200,24 @@ aside {
 
 
 .consultaArticulo {
-    background-color: darkgoldenrod;
+    background-color:tomato;
     border: solid 1px black;
     border-radius: 10px;
     padding: 10px;
-    color: antiquewhite;
+    color: black;
     margin-bottom: 15px;
     font-size: 1.5rem;
+
+}
+
+.volverAlInicio {
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    margin-top: 5px;
 
 }
 
@@ -223,6 +233,13 @@ aside {
         font-size: 3.5rem;
         color: white;
     }
+
+    h2 {
+        font-size: 2.5rem;
+        background-color: aquamarine;
+        color: black;
+    }
+
 }
 
 

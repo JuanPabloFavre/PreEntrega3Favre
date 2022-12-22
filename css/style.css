@@ -202,13 +202,23 @@ aside {
 }
 
 .consultaArticulo {
-  background-color: darkgoldenrod;
+  background-color: tomato;
   border: solid 1px black;
   border-radius: 10px;
   padding: 10px;
-  color: antiquewhite;
+  color: black;
   margin-bottom: 15px;
   font-size: 1.5rem;
+}
+
+.volverAlInicio {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  margin-top: 5px;
 }
 
 .tituloPaginaInterna {
@@ -220,6 +230,11 @@ aside {
 .tituloPaginaInterna h1 {
   font-size: 3.5rem;
   color: white;
+}
+.tituloPaginaInterna h2 {
+  font-size: 2.5rem;
+  background-color: aquamarine;
+  color: black;
 }
 
 .footerGeneral {
@@ -573,14 +588,14 @@ aside {
   }
 }
 .bodyCamisetas {
-  background-image: url(../fondos/cielo.jpg);
+  background-image: url(../fondos/degradado.jpg);
   background-size: cover;
 }
 
 .camisetaVenta {
   border: solid white 4px;
   border-radius: 10px;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -588,7 +603,7 @@ aside {
   width: 310px;
   margin-bottom: 115px;
   margin-right: 5%;
-  background-image: url(../fondos/celeste.jpg);
+  background-image: url(../../fondos/camiseta-venta.png);
   background-size: cover;
 }
 .camisetaVenta img {
@@ -603,7 +618,7 @@ aside {
 }
 .camisetaVenta select {
   margin-bottom: 14px;
-  border: solid 2px white;
+  border: solid 2px black;
 }
 
 .contenedorCamisetas {
@@ -624,7 +639,7 @@ aside {
 @media (min-width: 1200px) {
   .contenedorCamisetas {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
   }
 }
@@ -637,7 +652,7 @@ aside {
 .guantesVenta {
   border: solid darkslategray 4px;
   border-radius: 10px;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -645,7 +660,7 @@ aside {
   width: 300px;
   margin-bottom: 115px;
   margin-right: 5%;
-  background-image: url(../fondos/celeste.jpg);
+  background-image: url(../fondos/guantes-venta.png);
   background-size: cover;
 }
 .guantesVenta img {
@@ -660,12 +675,12 @@ aside {
 }
 .guantesVenta select {
   margin-bottom: 14px;
-  border: solid 2px white;
+  border: solid 2px black;
 }
 
 .contenedorGuantes {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   margin: 20px 25px 15px 25px;
   justify-items: center;
@@ -673,7 +688,7 @@ aside {
 @media (min-width: 768px) {
   .contenedorGuantes {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     justify-items: space-around;
   }
@@ -681,20 +696,20 @@ aside {
 @media (min-width: 1200px) {
   .contenedorGuantes {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
   }
 }
 
 .bodyMedias {
-  background-image: url(../fondos/cielo.jpg);
+  background-image: url(../fondos/medias.jpg);
   background-size: cover;
 }
 
 .mediasVenta {
   border: solid darkslategray 4px;
   border-radius: 10px;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -702,7 +717,7 @@ aside {
   width: 300px;
   margin-bottom: 115px;
   margin-right: 5%;
-  background-image: url(../fondos/celeste.jpg);
+  background-image: url(../fondos/medias-venta.png);
   background-size: cover;
 }
 .mediasVenta img {
@@ -717,7 +732,7 @@ aside {
 }
 .mediasVenta select {
   margin-bottom: 14px;
-  border: solid 2px white;
+  border: solid 2px black;
 }
 
 .contenedorMedias {
@@ -751,7 +766,7 @@ aside {
 .otrosVenta {
   border: solid darkslategray 4px;
   border-radius: 10px;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -759,7 +774,7 @@ aside {
   width: 300px;
   margin-bottom: 115px;
   margin-right: 5%;
-  background-image: url(../fondos/celeste.jpg);
+  background-image: url(../fondos/otros-venta.png);
   background-size: cover;
 }
 .otrosVenta img {
@@ -808,7 +823,7 @@ aside {
 .shortsVenta {
   border: solid darkslategray 4px;
   border-radius: 10px;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -816,7 +831,7 @@ aside {
   width: 300px;
   margin-bottom: 115px;
   margin-right: 5%;
-  background-image: url(../fondos/celeste.jpg);
+  background-image: url(../../fondos/shorts-venta.png);
   background-size: cover;
 }
 .shortsVenta img {
@@ -831,7 +846,7 @@ aside {
 }
 .shortsVenta select {
   margin-bottom: 14px;
-  border: solid 2px white;
+  border: solid 2px black;
 }
 
 .contenedorShorts {
@@ -858,14 +873,14 @@ aside {
 }
 
 .bodyZapatos {
-  background-image: url(../fondos/cielo.jpg);
+  background-image: url(../fondos/zapatos.jpg);
   background-size: cover;
 }
 
 .zapatosVenta {
   border: solid darkslategray 4px;
   border-radius: 10px;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -873,7 +888,7 @@ aside {
   width: 300px;
   margin-bottom: 115px;
   margin-right: 5%;
-  background-image: url(../fondos/celeste.jpg);
+  background-image: url(../../fondos/zapatos-venta.png);
   background-size: cover;
 }
 .zapatosVenta img {
@@ -888,7 +903,7 @@ aside {
 }
 .zapatosVenta select {
   margin-bottom: 14px;
-  border: solid 2px white;
+  border: solid 2px black;
 }
 
 .contenedorZapatos {
@@ -909,8 +924,186 @@ aside {
 @media (min-width: 1200px) {
   .contenedorZapatos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
+  }
+}
+
+.ubicacionArticulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../fondos/cielo.jpg);
+  background-size: cover;
+}
+.ubicacionArticulos a {
+  color: wheat;
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .ubicacionArticulos a {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .ubicacionArticulos a {
+    font-size: 2rem;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.facturaCompra {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  border: solid 2px black;
+}
+.facturaCompra h2 {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+@media (min-width: 768px) {
+  .facturaCompra h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .facturaCompra h2 {
+    margin-top: 10px;
+    font-size: 3rem;
+  }
+}
+
+.ordenFactura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 5px black;
+  background-color: wheat;
+}
+.ordenFactura h3 {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+@media (min-width: 768px) {
+  .ordenFactura h3 {
+    margin-top: 10px;
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 1200px) {
+  .ordenFactura h3 {
+    margin-top: 10px;
+    font-size: 2.5rem;
+  }
+}
+
+.logoEmpresa {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-bottom: 2px;
+  margin-top: 12px;
+}
+.logoEmpresa h3 {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.facturaCompraCuerpo {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+.facturaCompraCuerpo h1 {
+  font-size: 10px;
+  color: black;
+}
+.facturaCompraCuerpo h2 {
+  font-size: 10px;
+  color: black;
+}
+
+.facturaCompraPie {
+  width: 80%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  margin-bottom: 2px;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+.facturaCompraConfirmar {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.compraArticulo {
+  background-color: green;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: antiquewhite;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.cancelaArticulo {
+  background-color: red;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 10px;
+  color: antiquewhite;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.contenedorGracias {
+  width: 400px;
+}
+
+.graciasPorComprar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .graciasPorComprar {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .graciasPorComprar {
+    width: 100%;
   }
 }
 

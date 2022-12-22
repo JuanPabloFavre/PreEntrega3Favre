@@ -1,5 +1,5 @@
 .bodyCamisetas {
-    background-image: url(../fondos/cielo.jpg);
+    background-image: url(../fondos/degradado.jpg);
     background-size: cover;
 
 }
@@ -9,7 +9,7 @@
 
     border: solid white 4px;
     border-radius: 10px;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,8 +17,8 @@
     width: 310px;
     margin-bottom: 115px;
     margin-right: 5%;
-    background-image: url(../fondos/celeste.jpg);
-    background-size: cover;
+    background-image: url(../../fondos/camiseta-venta.png);
+  background-size: cover;
 
     img {
         width: 100%;
@@ -34,7 +34,7 @@
     }
     select{
 margin-bottom: 14px;
-border: solid 2px white;
+border: solid 2px black;
 
     }
 
@@ -60,7 +60,7 @@ border: solid 2px white;
 
     @include desktop{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
 
     }

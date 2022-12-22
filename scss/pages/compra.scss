@@ -1,6 +1,6 @@
 
 .facturaCompra{
-width: 80%;
+width: 100%;
 background-color: white;
 display: flex;
 flex-direction: column;
@@ -46,6 +46,7 @@ h3{
     font-size: 0.8rem;
     }
 
+   
     @include tablet {
         h3{
             margin-top: 10px;
@@ -124,13 +125,12 @@ color: black;
 }
 
 .facturaCompraConfirmar{
-width: 80%;
+width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: row;
 margin: 50px;
-
 
 }
 

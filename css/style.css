@@ -123,14 +123,22 @@ aside {
   margin: 20px;
 }
 .redesSociales img {
-  width: 50px;
+  width: 25px;
 }
 @media (min-width: 768px) {
   .redesSociales {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-evenly;
     align-items: center;
+  }
+  .redesSociales img {
+    width: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .redesSociales img {
+    width: 60px;
   }
 }
 

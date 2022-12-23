@@ -42,7 +42,7 @@
 
 .contenedorGuantes {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin: 20px 25px 15px 25px;
     justify-items: center;
@@ -50,15 +50,15 @@
 
     @include tablet {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         justify-items: space-around;
 
     }
 
-    @include desktop{
+    @include desktop {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
 
     }

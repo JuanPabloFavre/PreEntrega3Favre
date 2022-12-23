@@ -115,6 +115,25 @@ aside {
   border-bottom: solid black 5px;
 }
 
+.redesSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.redesSociales img {
+  width: 50px;
+}
+@media (min-width: 768px) {
+  .redesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+  }
+}
+
 .mapaLocal iframe {
   width: 70%;
 }
@@ -680,7 +699,7 @@ aside {
 
 .contenedorGuantes {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
   margin: 20px 25px 15px 25px;
   justify-items: center;
@@ -688,7 +707,7 @@ aside {
 @media (min-width: 768px) {
   .contenedorGuantes {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     justify-items: space-around;
   }
@@ -696,7 +715,7 @@ aside {
 @media (min-width: 1200px) {
   .contenedorGuantes {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
   }
 }
@@ -937,7 +956,7 @@ aside {
   background-size: cover;
 }
 .ubicacionArticulos a {
-  color: wheat;
+  color: black;
   font-size: 1.5rem;
 }
 @media (min-width: 768px) {
@@ -959,7 +978,7 @@ aside {
 }
 
 .facturaCompra {
-  width: 80%;
+  width: 100%;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -1057,7 +1076,7 @@ aside {
 }
 
 .facturaCompraConfirmar {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

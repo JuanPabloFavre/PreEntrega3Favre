@@ -539,6 +539,9 @@ aside {
   .logoIndex a:hover {
     transform: scale(1.1, 1.1);
   }
+  .articulosIndex a:hover {
+    transform: scale(1.2, 1.2);
+  }
   /* Fin Transformaciones */
   .articulosVenta img {
     width: 100%;
@@ -1063,7 +1066,7 @@ aside {
   font-size: 0.8rem;
 }
 @media (min-width: 768px) {
-  .ordenFactura h3 {
+  .ordenFactura span {
     margin-top: 10px;
     font-size: 1.7rem;
   }
@@ -1100,13 +1103,30 @@ aside {
   margin-bottom: 2px;
   margin-top: 10px;
 }
+.facturaCompraCuerpo div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .facturaCompraCuerpo h1 {
   font-size: 10px;
   color: black;
 }
-.facturaCompraCuerpo h2 {
+.facturaCompraCuerpo span {
   font-size: 10px;
   color: black;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .facturaCompraCuerpo span span {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .facturaCompraCuerpo span span {
+    font-size: 2.5rem;
+  }
 }
 
 .facturaCompraPie {
@@ -1119,6 +1139,12 @@ aside {
   margin-bottom: 2px;
   margin-top: 20px;
   padding-right: 20px;
+}
+.facturaCompraPie div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .facturaCompraConfirmar {

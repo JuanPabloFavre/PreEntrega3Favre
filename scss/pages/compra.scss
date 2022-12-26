@@ -1,117 +1,138 @@
-.facturaCompra{
-width: 80%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-border: solid 2px black;
-margin-top: 5px;
-background-color: white;
-padding: 10px;
+.facturaCompra {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    margin-top: 5px;
+    background-color: white;
+    padding: 10px;
 
-h2{
-    margin-top: 10px;
-    font-size: 0.9rem;
+    h2 {
+        margin-top: 10px;
+        font-size: 0.9rem;
     }
 
     @include tablet {
-        h2{
+        h2 {
             margin-top: 10px;
             font-size: 2rem;
-            }
+        }
     }
-    
-    @include desktop{
-        h2{
+
+    @include desktop {
+        h2 {
             margin-top: 10px;
             font-size: 3rem;
-            }
         }
+    }
 }
 
 
- 
-    
 
-.ordenFactura{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-border: solid 5px black;
-background-color: wheat;
 
-h3{
-    margin-top: 10px;
-    font-size: 0.8rem;
+
+.ordenFactura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 5px black;
+    background-color: wheat;
+
+    h3 {
+        margin-top: 10px;
+        font-size: 0.8rem;
     }
 
-   
+
     @include tablet {
-        h3{
+        span {
             margin-top: 10px;
             font-size: 1.7rem;
-            }
+        }
 
     }
-    
-    @include desktop{
-        h3{
+
+    @include desktop {
+        h3 {
             margin-top: 10px;
             font-size: 2.5rem;
-            }
-    
+        }
+
     }
 
 }
 
-.logoEmpresa{
-width: 80%;
-background-color:white;
-display: flex;
-justify-content: center;
-align-items: center;
-border: 2px solid black;
-margin-bottom: 2px;
-margin-top: 12px;
+.logoEmpresa {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    margin-top: 12px;
 
-h3{
+    h3 {
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+
+
+}
+
+.facturaCompraCuerpo {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 2px;
     margin-top: 10px;
-    font-size: 1rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 10px;
+        color: black;
+
+    }
+
+    span {
+        font-size: 10px;
+        color: black;
+        font-size: 1rem;
+
+        @include tablet {
+            span{
+                font-size: 2rem;
+                }
+    
+        }
+        
+        @include desktop{
+            span{
+               
+                font-size: 2.5rem;
+                }
+        
+        }
+
     }
 
 
-
 }
 
-.facturaCompraCuerpo{
-width: 80%;
-display: flex;
-justify-content: space-around;
-align-items: center;
-background-color: white;
-border: 2px solid black;
-margin-bottom: 2px;
-margin-top: 10px;
-
-h1{
-font-size: 10px;
-color: black;
-
-
-
-}
-
-h2{
-font-size: 10px;
-color: black;
-
-
-}
-
-}
-
-.facturaCompraPie{
+.facturaCompraPie {
     width: 80%;
     display: flex;
     justify-content: right;
@@ -121,15 +142,23 @@ color: black;
     margin-bottom: 2px;
     margin-top: 20px;
     padding-right: 20px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
 }
 
-.facturaCompraConfirmar{
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: row;
-margin: 50px;
+.facturaCompraConfirmar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px;
 
 }
 
@@ -143,9 +172,9 @@ margin: 50px;
     margin-bottom: 15px;
     font-size: 2rem;
 
-  }
+}
 
-  .cancelaArticulo {
+.cancelaArticulo {
     background-color: red;
     border: solid 1px black;
     border-radius: 10px;
@@ -153,4 +182,4 @@ margin: 50px;
     color: antiquewhite;
     margin-bottom: 15px;
     font-size: 2rem;
-  }
+}

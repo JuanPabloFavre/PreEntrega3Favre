@@ -4,8 +4,8 @@ header {
     text-align: center;
     justify-content: center;
     width: 100%;
-    padding-bottom: 10%;
     background-image: url(../fondos/celeste.jpg);
+    background-size: cover;
 
 
     @include tablet {
@@ -36,6 +36,7 @@ header {
 
 }
 
+
 nav {
     display: flex;
     text-align: center;
@@ -48,14 +49,7 @@ nav {
 
 }
 
-body {
-    background-image: url(../fondos/cielo.jpg);
-    background-size: cover;
-
-}
-
 nav img {
-
     width: 100px;
     height: 50%;
 }
@@ -63,14 +57,12 @@ nav img {
 
 
 header img {
-
     height: 150%;
     width: 50%;
 
 }
 
 header li {
-
     padding-bottom: 10px;
 }
 
@@ -86,42 +78,67 @@ aside {
     margin-bottom: 1%;
     border-top: solid black 5px;
     border-bottom: solid black 5px;
-
-
 }
 
-.redesSociales{
-display: flex;
-flex-direction: row;
-justify-content:center;
-align-items:center;
-margin: 20px;
-
-img{
-width: 25px
-
+.logoIndex {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
 }
 
-@include tablet {
+.bodyIndex {
+    background-image: url(../fondos/index.jpg);
+    background-size: cover;
+}
+
+.bodyInfoEmp {
+    background-image: url(../../fondos/info.jpg);
+    background-size: cover;
+}
+
+.redesSociales {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    align-items:center;
-    img{
-        width: 40px
-        
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+    img {
+        width: 20px;
+        margin-left: 30px;
+
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+
+        img {
+            width: 20px
         }
 
-}
+    }
 
-@include desktop {
-   
-    img{
-        width: 60px
-              
+    @include desktop {
+
+        img {
+            width: 50px;
+
+
         }
-     
-}
+
+    }
+
+    .headerPrincipal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 .mapaLocal iframe {
@@ -150,7 +167,6 @@ width: 25px
 }
 
 .listaHeader a {
-
     color: white;
 
 
@@ -167,7 +183,6 @@ width: 25px
     margin-right: 3%;
 
     img {
-
         height: 100%;
         width: 100%;
         border: solid 2px black;
@@ -175,7 +190,6 @@ width: 25px
         margin-bottom: 10px;
         background-image: url(../fondos/ventas.jpg);
         background-size: cover;
-
     }
 
     a {
@@ -183,7 +197,6 @@ width: 25px
     }
 
     span {
-
         width: 100%;
         font-size: 2rem;
         margin-left: 25%;
@@ -201,7 +214,7 @@ width: 25px
     margin-right: 15%;
     margin-left: 15%;
     margin-top: 15%;
-    background-image: url(../fondos/fondo-zapatos.jpg);
+    background-image: url(../../fondos/azul.jpg);
     background: cover;
 
 
@@ -220,7 +233,6 @@ width: 25px
 }
 
 .tituloPublicidad {
-
     background-color: black;
     color: aliceblue;
     text-align: center;
@@ -232,7 +244,7 @@ width: 25px
 
 
 .consultaArticulo {
-    background-color:tomato;
+    background-color: tomato;
     border: solid 1px black;
     border-radius: 10px;
     padding: 10px;
@@ -255,7 +267,6 @@ width: 25px
 
 
 .tituloPaginaInterna {
-
     background-color: black;
     text-align: center;
     margin-top: 20px;
@@ -269,9 +280,12 @@ width: 25px
     h2 {
         font-size: 2.5rem;
         background-color: aquamarine;
-        color: black;
+        color: white;
     }
 
+    p {
+        color: white;
+    }
 }
 
 
@@ -282,6 +296,7 @@ width: 25px
     justify-content: center;
     flex-direction: column;
     background-image: url(../fondos/celeste.jpg);
+    background-size: cover;
 }
 
 .footerUl {
@@ -292,30 +307,24 @@ width: 25px
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .logoFooter a {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .logoFooter img {
     height: 35%;
     width: 35%;
     margin-left: 5%;
-
 }
 
 .footerUl a {
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
-
 }
 
 
@@ -324,9 +333,6 @@ width: 25px
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
-
-
-
 }
 
 .ordenInfoEmpresa {
@@ -338,21 +344,18 @@ width: 25px
     border: solid white 2px;
     border-radius: 10px;
     padding: 10px;
-
 }
 
 .ordenInfoEmpresa div {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .ordenInfoEmpresa img {
 
     width: 100%;
     height: 100%;
-
 }
 
 .imagenInfoEmpresa {
@@ -360,16 +363,12 @@ width: 25px
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
-
 }
 
 .imagenInfoEmpresa img {
     width: 80%;
     height: 80%;
     padding-top: 15px;
-
 }
 
 
@@ -382,13 +381,10 @@ width: 25px
     border: solid black 2px;
     border-radius: 10px;
     padding: 10px;
-
 }
 
 .ordenInfoContacto img {
     width: 100px;
-
-
 }
 
 .ordenInfoContacto h3 {
@@ -406,7 +402,6 @@ width: 25px
     border: solid black 2px;
     border-radius: 10px;
     padding: 10px;
-
 }
 
 
@@ -423,7 +418,6 @@ width: 25px
 }
 
 .ordenContaco div {
-
     text-align: center;
 }
 
@@ -435,26 +429,22 @@ width: 25px
     margin: 15px 15px 15px 15px;
     justify-content: center;
     align-items: center;
-
 }
 
 .mapaLocal span {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 10px;
-
 }
 
 .mapaLocal iframe {
 
     width: 60%;
     padding: 10px;
-
 }
 
 .ordenInfoEmpresa img {
     width: 50%;
-
 }
 
 .formContacto ul li {
@@ -465,13 +455,11 @@ width: 25px
     flex-direction: column;
     gap: 10px;
     font-size: 1rem;
-
-
-
 }
 
 .tituloPaginaInterna h2 {
     font-size: 1.5rem;
+    color: white;
 }
 
 /* Configuracion para pantallas mayores de 768px */
@@ -482,16 +470,26 @@ width: 25px
 
     header {
         padding-bottom: 5%;
-
     }
 
 
     .logoIndex {
-        margin-top: 100px;
+        margin-top: 120px;
+        margin-bottom: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 150px;
+        height: 50px;
+
+
+    }
+
+
+    .headerPrincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -500,7 +498,6 @@ width: 25px
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
-
     }
 
 
@@ -511,9 +508,9 @@ width: 25px
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: auto;
         text-align: center;
-        border-bottom: 7px double black;
-        border-left: 7px double black;
-        border-right: 7px double black;
+        border-bottom: 7px ridge white;
+        border-left: 7px ridge white;
+        border-right: 7px ridge white;
         border-radius: 2px;
 
         a {
@@ -521,8 +518,6 @@ width: 25px
             justify-content: center;
             align-items: center;
             padding-bottom: 15px;
-
-
         }
 
         span {
@@ -532,7 +527,6 @@ width: 25px
         img {
             height: 85%;
             width: 85%;
-
         }
 
 
@@ -559,7 +553,6 @@ width: 25px
         justify-content: center;
         margin: 15px 15px 15px 15px;
         transform: skewY(2s);
-
     }
 
     /* Transformaciones  */
@@ -569,21 +562,13 @@ width: 25px
         color: $color-letra;
     }
 
-    .logoIndex img:hover {
-        width: 400px;
-        height: 400px;
-
-    }
 
     .listaHeader a:hover {
         color: $color-letra;
-
     }
 
     .footerUl a:hover {
         color: $color-letra;
-
-
     }
 
     .articulosIndex img:hover {
@@ -597,6 +582,17 @@ width: 25px
         color: aliceblue;
     }
 
+    .logoFooter a:hover{
+        transform: scale(1.1, 1.1);
+    }
+
+    .redesSociales a:hover {
+        transform: scale(1.5, 1.5);
+    }
+
+    .logoIndex a:hover{
+        transform: scale(1.1, 1.1);
+    }
 
     /* Fin Transformaciones */
 
@@ -605,7 +601,6 @@ width: 25px
     }
 
     .infoEmpresa {
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -621,7 +616,6 @@ width: 25px
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
 
     .ordenInfoCondiciones h3 {
@@ -640,19 +634,15 @@ width: 25px
 
     .ordenInfoCondiciones p {
         font-size: 1rem;
-
-
     }
 
 
 
     .ordenInfoContacto img {
         width: 150px;
-
     }
 
     .ordenInfoContacto li {
-
         text-align: center;
         margin: 20px 10px 20px 10px;
         font-size: 1.5rem;
@@ -676,7 +666,6 @@ width: 25px
 
         width: 70%;
         align-items: center;
-
     }
 
 
@@ -685,7 +674,6 @@ width: 25px
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
     .textoAcercaDe {
@@ -693,7 +681,6 @@ width: 25px
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
     }
 
 }
@@ -706,11 +693,9 @@ width: 25px
     .articulosIndex img {
         height: 150px;
         width: 150px;
-
     }
 
     .articulosIndex video {
-
         height: 450px;
         width: 450px;
     }
@@ -718,21 +703,16 @@ width: 25px
 
 
     .textoIndex span {
-
         font-size: 2rem;
-
-
     }
 
     .seccionIndex {
         display: grid;
         grid-template-columns: 1fr 1fr;
-
     }
 
 
     .ordenInfoEmpresa {
-
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -770,19 +750,6 @@ width: 25px
         padding-bottom: 15px;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

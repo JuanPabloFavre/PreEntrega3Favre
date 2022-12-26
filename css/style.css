@@ -48,8 +48,8 @@ header {
   text-align: center;
   justify-content: center;
   width: 100%;
-  padding-bottom: 10%;
   background-image: url(../fondos/celeste.jpg);
+  background-size: cover;
 }
 @media (min-width: 768px) {
   header header {
@@ -83,11 +83,6 @@ nav {
   width: 100%;
 }
 
-body {
-  background-image: url(../fondos/cielo.jpg);
-  background-size: cover;
-}
-
 nav img {
   width: 100px;
   height: 50%;
@@ -115,31 +110,56 @@ aside {
   border-bottom: solid black 5px;
 }
 
+.logoIndex {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.bodyIndex {
+  background-image: url(../fondos/index.jpg);
+  background-size: cover;
+}
+
+.bodyInfoEmp {
+  background-image: url(../../fondos/info.jpg);
+  background-size: cover;
+}
+
 .redesSociales {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: 20px;
+  margin-bottom: 50px;
 }
 .redesSociales img {
-  width: 25px;
+  width: 20px;
+  margin-left: 30px;
 }
 @media (min-width: 768px) {
   .redesSociales {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-end;
   }
   .redesSociales img {
-    width: 40px;
+    width: 20px;
   }
 }
 @media (min-width: 1200px) {
   .redesSociales img {
-    width: 60px;
+    width: 50px;
   }
+}
+.redesSociales .headerPrincipal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .mapaLocal iframe {
@@ -206,7 +226,7 @@ aside {
   margin-right: 15%;
   margin-left: 15%;
   margin-top: 15%;
-  background-image: url(../fondos/fondo-zapatos.jpg);
+  background-image: url(../../fondos/azul.jpg);
   background: cover;
 }
 
@@ -261,7 +281,10 @@ aside {
 .tituloPaginaInterna h2 {
   font-size: 2.5rem;
   background-color: aquamarine;
-  color: black;
+  color: white;
+}
+.tituloPaginaInterna p {
+  color: white;
 }
 
 .footerGeneral {
@@ -270,6 +293,7 @@ aside {
   justify-content: center;
   flex-direction: column;
   background-image: url(../fondos/celeste.jpg);
+  background-size: cover;
 }
 
 .footerUl {
@@ -420,6 +444,7 @@ aside {
 
 .tituloPaginaInterna h2 {
   font-size: 1.5rem;
+  color: white;
 }
 
 /* Configuracion para pantallas mayores de 768px */
@@ -428,11 +453,18 @@ aside {
     padding-bottom: 5%;
   }
   .logoIndex {
-    margin-top: 100px;
+    margin-top: 120px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 50px;
+  }
+  .headerPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .ordenPublicidad {
     display: grid;
@@ -446,9 +478,9 @@ aside {
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
     text-align: center;
-    border-bottom: 7px double black;
-    border-left: 7px double black;
-    border-right: 7px double black;
+    border-bottom: 7px ridge white;
+    border-left: 7px ridge white;
+    border-right: 7px ridge white;
     border-radius: 2px;
   }
   .articulosIndex a {
@@ -485,10 +517,6 @@ aside {
     background-color: skyblue;
     color: black;
   }
-  .logoIndex img:hover {
-    width: 400px;
-    height: 400px;
-  }
   .listaHeader a:hover {
     color: black;
   }
@@ -501,6 +529,15 @@ aside {
   .formContacto ul li input:hover {
     background-color: darkslategrey;
     color: aliceblue;
+  }
+  .logoFooter a:hover {
+    transform: scale(1.1, 1.1);
+  }
+  .redesSociales a:hover {
+    transform: scale(1.5, 1.5);
+  }
+  .logoIndex a:hover {
+    transform: scale(1.1, 1.1);
   }
   /* Fin Transformaciones */
   .articulosVenta img {

@@ -125,7 +125,7 @@ aside {
 }
 
 .bodyInfoEmp {
-  background-image: url(../../fondos/info.jpg);
+  background-image: url(../fondos/info.jpg);
   background-size: cover;
 }
 
@@ -226,7 +226,7 @@ aside {
   margin-right: 15%;
   margin-left: 15%;
   margin-top: 15%;
-  background-image: url(../../fondos/azul.jpg);
+  background-image: url(../fondos/azul.jpg);
   background: cover;
 }
 
@@ -667,7 +667,7 @@ aside {
   width: 310px;
   margin-bottom: 115px;
   margin-right: 5%;
-  background-image: url(../../fondos/camiseta-venta.png);
+  background-image: url(../fondos/camiseta-venta.png);
   background-size: cover;
 }
 .camisetaVenta img {
@@ -895,7 +895,7 @@ aside {
   width: 300px;
   margin-bottom: 115px;
   margin-right: 5%;
-  background-image: url(../../fondos/shorts-venta.png);
+  background-image: url(../fondos/shorts-venta.png);
   background-size: cover;
 }
 .shortsVenta img {
@@ -952,7 +952,7 @@ aside {
   width: 300px;
   margin-bottom: 115px;
   margin-right: 5%;
-  background-image: url(../../fondos/zapatos-venta.png);
+  background-image: url(../fondos/zapatos-venta.png);
   background-size: cover;
 }
 .zapatosVenta img {
@@ -997,7 +997,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../../fondos/cielo.jpg);
+  background-image: url(../fondos/cielo.jpg);
   background-size: cover;
 }
 .ubicacionArticulos a {
